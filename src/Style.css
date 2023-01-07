@@ -1,0 +1,1158 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.registration-part .box {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 70px;
+}
+
+.registration-part .box .left h1 {
+    color: #11175D;
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 220px;
+}
+
+.registration-part .box .left p {
+    color: #11175D;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 13px;
+    margin-bottom: 20px;
+}
+
+.registration-part .box .left .MuiFormControl-root {
+    margin: 10px 0;
+}
+
+.registration-part .box .left .MuiFormHelperText-root {
+    color: red;
+    margin: 5px 0;
+
+}
+
+.registration-part .box .left .custombtn {
+
+
+    padding: 10px 126px;
+    background-color: #5f35f5;
+    margin: 48px 250px;
+    border-radius: 30px;
+
+}
+
+/* =============================-=================
+            Login part css start
+===================================================*/
+
+.login-part .box {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 142px;
+}
+
+.login-part .log-left h1 {
+    color: #03014C;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    margin: 271px 0px 20px 0px;
+}
+
+.login-part .log-left .collaspe-btn {
+    margin: 0;
+    padding: 6px 11px 0 0;
+    background: transparent;
+}
+
+.login-part .box .login-option {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.login-part .box .login-option .google {
+    color: #03014C;
+    font-size: 14px;
+    font-weight: 600px;
+    font-family: 'Open Sans', sans-serif;
+    border: 1px solid #03014c80;
+    padding: 20px 50px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.login-part .box .login-option .google {
+    position: relative;
+}
+
+.login-part .box .login-option .google img {
+    position: absolute;
+    left: 18px;
+    top: 18px;
+}
+
+.login-part .log-left .MuiFormControl-root {
+    margin: 14px 0;
+}
+
+.login-part .log-left .MuiFormHelperText-root {
+    color: red;
+    margin: 5px 0;
+    font-size: 13px;
+}
+
+
+.login-part .log-left .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+    margin-top: 20px;
+    border: 0;
+    border-bottom: 1px solid #03014C;
+    border-radius: 0;
+
+}
+
+.login-part .log-left .eyebox {
+    position: relative;
+
+}
+
+.login-part .log-left .eyebox .eye-icon {
+    position: absolute;
+    top: 32px;
+    left: 188px;
+    font-size: 27px;
+}
+
+.login-part .log-left button {
+    margin: 20px 0px 0px 5px;
+    padding: 10px 70px;
+    background: #5F34F5;
+}
+
+.login-part .log-left .linksign {
+    margin-top: 20px;
+    color: #03014C;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-part .log-left .forgot_password {
+    color: red;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-part .right {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+
+/* =============================-=================
+            Login part css start
+===================================================*/
+
+/* =============================-=================
+            Home part css start
+===================================================*/
+
+.leftall {
+    width: 90%;
+    height: 1080px;
+    background: #5F35F5;
+    margin: 25px 0 25px 15px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+.leftall .imgbox {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #000;
+    margin: 0 auto;
+    position: relative;
+}
+
+.leftall .imgbox img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.leftall .imgbox .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all linear .1s;
+}
+
+.leftall .imgbox:hover .overlay {
+    opacity: 1;
+}
+
+.leftall .iconlist ul {
+    margin-top: 100px;
+}
+
+.leftall .iconlist ul li {
+    margin: 70px 0;
+    margin-left: auto;
+    font-size: 40px;
+    color: #BAD1FF;
+    position: relative;
+}
+.leftall .iconlist ul li .notiAmount {
+    position: absolute;
+    top: 15px;
+    left: 113px;
+    width: 26px;
+    height: 26px;
+    color: #0e3397;
+    border-radius: 50%;
+    border: 3px solid #5F35F5;
+    font-size: 16px;
+    line-height: 21px;
+    background-color: white;
+    
+}
+
+.leftall .iconlist ul li:nth-child(5) {
+    margin-top: 100px;
+    font-size: 40px;
+    color: #BAD1FF;
+
+
+}
+
+.leftall .iconlist .active {
+    margin: 70px 0 0 0;
+    background: #fff;
+    width: 90%;
+    margin-left: auto;
+    padding: 20px 0;
+    position: relative;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+
+.leftall .iconlist .active::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 100%;
+    background: #4ce46f;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.leftall .iconlist .active .icon {
+    color: #5F35F5;
+    font-size: 40px;
+    margin-left: -30px;
+}
+
+
+/* modal css start */
+.MuiBox-root {
+    width: 900px;
+    background: #191814f5;
+    margin: 5% auto;
+}
+
+.container_modal {
+    padding: 30px 20px;
+    text-align: center;
+
+}
+
+.container_modal h1 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container_modal img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* margin: 20px;
+    margin-left: 25px; */
+    margin-top: 20px;
+
+}
+
+.img-preview {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 2px solid #ffffff;
+    margin-top: 20px;
+
+}
+
+
+
+.inputFiled {
+    margin-top: 20px;
+    margin-left: 45%;
+    padding-bottom: 50px;
+
+}
+
+.uploding_btn {
+    width: 100%;
+    padding: 10px 10px;
+    background: #5F35F5;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+.loading {
+    position: absolute;
+    top: 21%;
+    right: 41%;
+    border: 4px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 4px solid #e6e65c;
+    border-right: 4px solid green;
+    border-bottom: 4px solid red;
+    border-left: 4px solid #45af78;
+    width: 25px;
+    height: 25px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* modal css End */
+
+/* Search componetn style start */
+
+
+.inputbox1 {
+    margin-top: 25px;
+    position: relative;
+}
+
+.inputbox1 .searchbox {
+    width: 95%;
+    height: 55px;
+    margin-left: 20px;
+    border-radius: 30px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3)
+}
+
+.inputbox1 .searchbox .MuiOutlinedInput-notchedOutline {
+    display: none;
+}
+
+.inputbox1 .searchbox .MuiInputLabel-root {
+    padding-left: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.inputbox1 .searchbox .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+    text-align: center;
+}
+
+.inputbox1 .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    font-size: 27px;
+
+}
+
+.inputbox1 .dots-iocn {
+    position: absolute;
+    top: 50%;
+    right: 80px;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: #3f3ac7;
+}
+
+
+/* Search componetn style End */
+
+.grouplist {
+
+    position: relative;
+    margin-top: 40px;
+    width: 95%;
+    height: 390px;
+    margin-left: 20px;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    overflow-y: scroll;
+}
+
+
+.grouplist .dots-iocn {
+    position: absolute;
+    top: 7%;
+    right: 40px;
+    transform: translateY(-50%);
+    font-size: 25px;
+    color: #03014C;
+}
+
+.grouplist .createBtn {
+    position: absolute;
+    top: 12%;
+    right: 47px;
+    transform: translateY(-50%);
+}
+
+.grouplist .createBtn button {
+    padding: 10px 18px;
+    color: white;
+    background: #18583a;
+    border: 1px solid #18583a;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: all linear .1s;
+}
+
+.grouplist .createBtn button:hover {
+    background-color: #03014C;
+    border: 1px solid #03014C;
+}
+
+.grouplist .heading {
+    text-align: start;
+    padding-top: 30px;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.grouplist .box-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom: 2px solid #4e040442;
+    padding-bottom: 20px;
+
+}
+
+.grouplist .box-content:last-child {
+    border-bottom: 0;
+}
+
+.box-content img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    animation: random 1s linear 5s infinite alternate;
+}
+
+@keyframes random {
+
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+}
+
+.box-content .title h2 {
+    color: #03014C;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.box-content .title p {
+    color: #000000;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /* margin-left: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-content .accept-btn button {
+    border: none;
+    background: #5F35F5;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* grouplist modal box css start */
+
+.ModalBoxgrouplist {
+    width: 600px;
+    height: 620px;
+    background: #142d30;
+    box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.77);
+    -webkit-box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.77);
+
+
+}
+
+
+
+.ModalBoxgrouplist .upload_img .removebtn {
+    padding: 10px 20px;
+    background: #18583a;
+    border: 1px solid #18583a;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 230px;
+    margin-top: 15px;
+    border-radius: 5px;
+
+}
+
+.ModalBoxgrouplist .upload_img .removebtn:hover {
+    background: #19736a;
+    border: 1px solid #19736a;
+}
+
+.ModalBoxgrouplist .upload_img img {
+    width: 100px;
+    height: 100px;
+    max-width: 100px;
+    margin-left: 250px;
+
+}
+
+
+
+
+
+.ModalBoxgrouplist .upload_img .fileinput {
+    margin-left: 205px;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 19px;
+
+}
+
+.ModalBoxgrouplist h2 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.ModalBoxgrouplist .CloseBtn {
+    position: absolute;
+    top: -33px;
+    left: 526px;
+    font-size: 40px;
+    color: white;
+}
+
+.ModalBoxgrouplist .information {
+    margin: 20px 0;
+}
+
+.ModalBoxgrouplist .information .MuiOutlinedInput-notchedOutline {
+    border-color: #fff;
+}
+
+.ModalBoxgrouplist .information .css-wb57ya-MuiFormControl-root-MuiTextField-root {
+    padding: 18px;
+    background: #0b1c1e;
+}
+
+.ModalBoxgrouplist .information .MuiInputLabel-root {
+    left: 20px;
+    top: 17px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.ModalBoxgrouplist .information .MuiOutlinedInput-input {
+    color: #fff;
+    font-size: 15px;
+}
+
+.ModalBoxgrouplist .information .showError {
+    color: red;
+    margin-left: 20px;
+}
+
+.ModalBoxgrouplist .createbtn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ModalBoxgrouplist .createbtn2 button {
+    padding: 10px 228px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background: #18583a;
+    border: 1px solid #18583a;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 17px;
+    transition: linear .0.7s;
+    font-family: 'poppins', sans-serif;
+}
+
+.ModalBoxgrouplist .createbtn2 button:hover {
+    background: #2a73929c;
+    border: 1px solid #2a73929c;
+
+}
+
+
+
+
+/* grouplist modal box css End */
+
+/* friendly part css start */
+
+.friendlist {
+    width: 95%;
+    height: 550px;
+}
+
+/* friendly part css end */
+
+/* freind part css start */
+
+.friend {
+    width: 97%;
+    height: 490px;
+}
+
+.friend .box-content .date {
+    font-size: 10px;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    color: rgb(0, 0, 0.50);
+
+}
+
+/* freind part css End */
+
+.box-content .uselistbtn button {
+    border: none;
+    background: #5F35F5;
+    padding: 5px 15px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'poppins', sans-serif;
+    cursor: pointer;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+/* my group css start  */
+
+.MyGroup {
+    height: 540px
+}
+
+
+/* my group css end  */
+
+
+/* =============================-=================
+            Home part css end
+===================================================*/
+
+/* =============================-=================
+            Darkmode part css Start
+===================================================*/
+
+.day {
+    background: #ffff;
+}
+
+.night {
+    background: #171717;
+
+}
+
+.night h2 {
+    color: white !important;
+}
+
+.night p {
+    color: white !important;
+}
+
+.night .searchbox {
+    background: #fff;
+}
+
+.night .grouplist {
+    -webkit-box-shadow: -2px 3px 12px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow: -2px 3px 12px 0px rgba(255, 255, 255, 1);
+    box-shadow: -2px 3px 12px 0px rgba(255, 255, 255, 1);
+}
+
+.darkmode .nighticon {
+    font-size: 30px;
+    color: #f9f9f9;
+    position: absolute;
+    top: -19px;
+    right: 162px;
+    border: 1px solid #000;
+    background: #000;
+    padding: 19px 2px;
+    border-radius: 35px;
+    transform: rotate(270deg);
+}
+
+.darkmode .dayicon {
+    font-size: 30px;
+    color: #afa40d;
+    position: absolute;
+    top: 4px;
+    right: 162px;
+    border: 1px solid #35312e;
+    padding: 3px 22px;
+    border-radius: 21px;
+    transform: rotate(360deg);
+    background: #35312e;
+}
+
+
+/* =============================-=================
+            Darkmode part css end
+===================================================*/
+
+
+/* =============================-=================
+            Forgotpassword part css Start
+===================================================*/
+.leftfp img {
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    border: 10px solid #1f97acb7;
+
+
+}
+
+.resetpassword_body {
+    background: #1f97ac8a;
+    border: 10px solid #1f97acb7;
+
+}
+
+.secondimage {
+    width: 627px;
+    height: 450px;
+    margin-top: 12px;
+
+
+}
+
+.rightfp {
+    transform: translate(85px, 45px);
+    width: 400px;
+
+}
+
+
+
+.rightfp .forgot_input {
+    width: 100%;
+}
+
+.rightfp .forgot_input .MuiFormHelperText-root {
+    color: red;
+}
+
+.rightfp .forgot_input .MuiInput-input {
+    border: 2px solid #000;
+    padding: 14px;
+}
+
+.rightfp .forgot_input .MuiInputLabel-root {
+    margin-left: 14px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.rightfp .forgot_input .MuiInput-input {
+    color: #000;
+}
+
+.rightfp .forgot_btn {
+    margin-top: 20px;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 4px;
+    transition: all linear .2s;
+    cursor: pointer;
+}
+
+.rightfp .forgot_btn:hover {
+    background: #248d37;
+    border-color: #248d37;
+}
+
+/* =============================-=================
+            Forgotpassword part css end
+===================================================*/
+
+
+/* =============================-=================
+            Userchatbox part css Start
+===================================================*/
+.full_chatbox {
+    height: 116  vh;
+    margin: 26px 0 20px;
+    overflow: scroll;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: -1px 1px 8px 2px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: -1px 1px 8px 2px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: -1px 1px 8px 2px rgba(0, 0, 0, 0.39);
+}
+
+.full_chatbox .topArea {
+    display: flex;
+    padding: 50px 0px 15px 30px;
+    border-bottom: 2px solid rgb(0, 0, 0, .25);
+    position: relative;
+
+
+}
+
+.full_chatbox .topArea .userimg {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: -1px 1px 8px 2px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: -1px 1px 8px 2px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: -1px 1px 8px 2px rgba(0, 0, 0, 0.39);
+}
+
+.full_chatbox .topArea .userimg::after {
+    position: absolute;
+    content: '';
+    top: 46px;
+    left: 54px;
+    width: 15px;
+    height: 15px;
+    background: #00FF75;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: -1px 1px 8px 2px rgba(0, 0, 0, 0.39);
+    -webkit-box-shadow: -1px 1px 8px 2px rgba(0, 0, 0, 0.39);
+    -moz-box-shadow: -1px 1px 8px 2px rgba(0, 0, 0, 0.39);
+}
+
+.full_chatbox .topArea .userimg img {
+    overflow: hidden;
+}
+
+.full_chatbox .topArea .username {
+    margin-left: 35px;
+    margin-top: 16px;
+}
+
+.full_chatbox .dot {
+    position: absolute;
+    top: 60px;
+    right: 30px;
+    font-size: 30px;
+    color: green;
+}
+
+.chat {
+    overflow-y: scroll;
+    overflow-x:hidden ;
+    height: 90vh;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.362);
+    padding-bottom: 10px;
+}
+
+.chat .msg {
+    display: flex;
+    margin: 40px 15px 0px 30px;
+    position: relative;
+
+
+}
+
+.chat .msg .imgsend {
+    width: 200px;
+    max-width: 100%;
+    padding: 15px;
+    
+}
+
+.chat .msg p {
+    margin-top: 48px;
+    border-radius: 14px;
+    display: inline-block;
+    padding: 20px 30px;
+
+}
+.chat .msg .whoSendName{
+    position: absolute;
+    top: -25px;
+    right: 40px;
+    font-size: 18px;
+}
+.chat .msg .whorecivedName {
+    position: absolute;
+    top: -25px;
+    left: 32px;
+}
+.chat .msg .chatimg{
+    margin-left: 20px;
+    
+}
+.chat .msg .chatimg img{
+    width: 400px;
+    height: 250px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.chat .msg .date {
+    font-size: 15px;
+    color: #000000;
+}
+
+.msgsendArea {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.msgsendArea input {
+    margin-left: 40px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    border: none;
+
+}
+
+.msgsendArea input::placeholder {
+    padding: 0 20px;
+    font-size: 15px;
+    color: #1f4684;
+}
+
+.msgsendArea .sendIcon {
+    position: absolute;
+    top: 20px;
+    right: 7%;
+    padding: 10px 18px;
+    background: #5F35F5;
+    border-radius: 7px;
+}
+
+.msgsendArea .sendIcon .sendmainiocn {
+    font-size: 30px;
+    color: white;
+}
+
+.msgsendArea .cemera {
+    position: absolute;
+    top: 33px;
+    right: 167px;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+
+
+/* =============================-=================
+            Userchatbox part css end
+===================================================*/
+
+
+/* =============================-=================
+            Notification  part css Start
+===================================================*/
+
+.notificationField{    
+    margin-left: 30px;
+    margin-right: 60px;
+    height: 1000px;        
+    border: 1px solid rgba(0, 0, 0, 0.689);
+    margin-top:calc(100px - 70px);
+    border-radius: 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.notification{
+    position: relative;
+    display: flex;
+}
+.notification .noti_icon{
+    color: #000000;
+    font-size: 50px;
+    margin: 20px;
+}
+
+.notification .notidetails{
+    font-size: 18px;
+    font-weight: 500;
+    color:#000;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+.notification::before {
+	position: absolute;
+	content: '';
+	top: 90px;
+	left: 40px;
+	width: 94%;
+	height: 2px;
+	background-color: #0000009d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =============================-=================
+            Notification  part css End
+===================================================*/
